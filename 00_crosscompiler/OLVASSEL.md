@@ -121,18 +121,18 @@ ott találnod. Meggyőződésem, hogy ezt a mappát hozzá akarod adni a PATH-od
 
 ```sh
 $ ls /usr/local/cross-compiler/bin
-aarch64-elf-addr2line  aarch64-elf-elfedit    aarch64-elf-gcc-ranlib  aarch64-elf-ld       aarch64-elf-ranlib
-aarch64-elf-ar         aarch64-elf-gcc        aarch64-elf-gcov        aarch64-elf-ld.bfd   aarch64-elf-readelf
-aarch64-elf-as         aarch64-elf-gcc-7.2.0  aarch64-elf-gcov-dump   aarch64-elf-nm       aarch64-elf-size
-aarch64-elf-c++filt    aarch64-elf-gcc-ar     aarch64-elf-gcov-tool   aarch64-elf-objcopy  aarch64-elf-strings
-aarch64-elf-cpp        aarch64-elf-gcc-nm     aarch64-elf-gprof       aarch64-elf-objdump  aarch64-elf-strip
+aarch64-elf-addr2line  aarch64-elf-elfedit    aarch64-linux-gnu-gcc-ranlib  aarch64-linux-gnu-ld       aarch64-elf-ranlib
+aarch64-elf-ar         aarch64-linux-gnu-gcc        aarch64-elf-gcov        aarch64-linux-gnu-ld.bfd   aarch64-elf-readelf
+aarch64-elf-as         aarch64-linux-gnu-gcc-7.2.0  aarch64-elf-gcov-dump   aarch64-elf-nm       aarch64-elf-size
+aarch64-elf-c++filt    aarch64-linux-gnu-gcc-ar     aarch64-elf-gcov-tool   aarch64-linux-gnu-objcopy  aarch64-elf-strings
+aarch64-elf-cpp        aarch64-linux-gnu-gcc-nm     aarch64-elf-gprof       aarch64-elf-objdump  aarch64-elf-strip
 ```
 
 Amik ezek közül számunkra érdekesek:
  - aarch64-elf-as - az assembler
- - aarch64-elf-gcc - a C fordító
- - aarch64-elf-ld - a linker
- - aarch64-elf-objcopy - az ELF futtathatók IMG-re való konvertálásához kell
+ - aarch64-linux-gnu-gcc - a C fordító
+ - aarch64-linux-gnu-ld - a linker
+ - aarch64-linux-gnu-objcopy - az ELF futtathatók IMG-re való konvertálásához kell
  - aarch64-elf-objdump - futtathatók disassemblálására (debuggoláshoz)
  - aarch64-elf-readelf - hasznos eszköz a futtathatókban lévő szekciók és szegmensek listázásra (debuggoláshoz)
 
